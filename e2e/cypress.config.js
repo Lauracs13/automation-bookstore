@@ -27,6 +27,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       return require("./cypress/plugins/index.js")(on, config);
     },
-    baseUrl: "https://jolly-flower-0f81b180f.5.azurestaticapps.net",
+    baseUrl: "bookstorewebapp.azurewebsites.net",
   },
 });
