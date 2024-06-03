@@ -7,10 +7,10 @@
     "test": "cypress run"
   },
   "keywords": [],
-  "author": "Bushra Alam",
+  "author": "Laura Cabezas",
   "license": "ISC",
   "dependencies": {
-    "@applitools/eyes-cypress": "^3.22.0",
-    "cypress": "13.10.0"
+    "@applitools/eyes-cypress": "^3.44.4",
+    "cypress": "^13.10.0"
   }
 }
