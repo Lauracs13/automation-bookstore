@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="27.576" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-06-03T20:33:14" tests="0" file="cypress\e2e\search_visual.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Search for books - eyes" timestamp="2024-06-03T20:33:14" tests="2" time="27.571" failures="1">
+    <testcase name="Search for books - eyes eyes should return one book with title Agile Testing" time="8.048" classname="eyes should return one book with title Agile Testing">
+    </testcase>
+    <testcase name="Search for books - eyes &quot;after all&quot; hook for &quot;eyes should return multiple books with title Test&quot;" time="0.000" classname="&quot;after all&quot; hook for &quot;eyes should return multiple books with title Test&quot;">
+      <failure message="[0mEyes-Cypress detected diffs or errors during execution of visual tests.[0m[0m See details at:[38;5;86m https://eyes.applitools.com/app/batches/00000251684853989624/00000251684853989375?accountId=8tOsum9o6kqmRdgYqfh_Cg__ [0m[0m
+       [38;5;214mDiffs detected - 2 tests[0m
+         [38;5;214m⚠[0m [0meyes should return one book with title Agile Testing [1000x660][0m
+         [38;5;214m⚠[0m [0meyes should return multiple books with title Test [1000x660][0m
+
+       [0mSee details at:[0m[38;5;86m https://eyes.applitools.com/app/batches/00000251684853989624/00000251684853989375?accountId=8tOsum9o6kqmRdgYqfh_Cg__ [0m
+
+
+
+Because this error occurred during a `after all` hook we are skipping all of the remaining tests." type="Error"><![CDATA[Error: [0mEyes-Cypress detected diffs or errors during execution of visual tests.[0m[0m See details at:[38;5;86m https://eyes.applitools.com/app/batches/00000251684853989624/00000251684853989375?accountId=8tOsum9o6kqmRdgYqfh_Cg__ [0m[0m
+       [38;5;214mDiffs detected - 2 tests[0m
+         [38;5;214m⚠[0m [0meyes should return one book with title Agile Testing [1000x660][0m
+         [38;5;214m⚠[0m [0meyes should return multiple books with title Test [1000x660][0m
+
+       [0mSee details at:[0m[38;5;86m https://eyes.applitools.com/app/batches/00000251684853989624/00000251684853989375?accountId=8tOsum9o6kqmRdgYqfh_Cg__ [0m
+
+
+
+Because this error occurred during a `after all` hook we are skipping all of the remaining tests.
+    at Context.eval (webpack://e2e/../node_modules/@applitools/eyes-cypress/src/browser/commands.js:102:0)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
